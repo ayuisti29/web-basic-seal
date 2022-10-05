@@ -14,7 +14,7 @@
 }
 
 .foto {
-  margin-left: 600px;
+  margin-left: 700px;
   padding-bottom: 20px;
 }
 .isi {
@@ -32,15 +32,15 @@
 }
 .list {
   list-style-type: square;
-  margin-left: 500px;
+  margin-left: 700px;
   padding-bottom: 20px;
 }
 .list-angka {
-  margin-left: 500px;
+  margin-left: 700px;
   padding-bottom: 20px;
 }
 .link {
-  margin-left: 550px;
+  margin-left: 750px;
 }
 
 /* CSS PORTOFOLIO */
@@ -60,7 +60,7 @@
   padding-top: 50px;
 }
 .form {
-  padding-left: 500px;
+  padding-left: 700px;
   padding-bottom: 20px;
 }
 .form1 {
@@ -74,7 +74,7 @@
 /*TENTANG SAYA*/
 .foto-p {
   height: 250px;
-  margin-left: 550px;
+  margin-left: 650px;
 }
 .isi {
   text-align: center;
@@ -83,10 +83,10 @@
 
 /*TABEL*/
 .pengalaman {
-  margin-left: 380px;
+  margin-left: 580px;
 }
 .skill {
-  margin-left: 480px;
+  margin-left: 680px;
 }
 .tabel-1 {
   background-color: #dcd0d0;
