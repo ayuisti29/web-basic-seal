@@ -6,8 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <title>Latihan Ayu Istikomah</title>
+
+    <!-- /* CSS NAV */ -->
+    <style>
+      ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(131, 122, 122);
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+      }
+
+      ul.topnav li {
+        float: left;
+      }
+
+      ul.topnav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      ul.topnav li a:hover:not(.active) {
+        background-color: rgb(76, 161, 167);
+      }
+
+      ul.topnav li a.active {
+        background-color: #16b0ec;
+      }
+
+      ul.topnav li.right {
+        float: right;
+      }
+
+      @media screen and (max-width: 600px) {
+        ul.topnav li.right,
+        ul.topnav li {
+          float: none;
+        }
+      }
+    </style>
   </head>
+
   <body class="bbackground">
+    <div>
+      <ul class="topnav">
+        <li><a class="active" href="portofolio.html">Portofolio</a></li>
+        <li><a href="#profil">Profil</a></li>
+        <li><a href="#kontak">Contact</a></li>
+      </ul>
+    </div>
+    <section id="profil"></section>
     <div class="profil">
       <h1 class="font">Ayu Istikomah | 3808582</h1>
       <img class="foto" src="ayu.png" alt="Blank.." width="200" height="200" />
@@ -32,6 +86,7 @@
       <li>Politeknik Negeri Banyuwangi</li>
     </ol>
     <h2 class="font-judul">Kontak Saya</h2>
-    <a class="link" href="portofolio.html">Portofolio</a>
+    <section id="kontak"></section>
+    <a class="link" href="portofolio.html">Portofolio Ayu</a>
   </body>
 </html>

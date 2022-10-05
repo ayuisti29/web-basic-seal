@@ -6,9 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <title>Portofolio</title>
+
+    <!-- BUTTON KEMBALI
+    <style>
+      div a {
+          font-family: sans-serif;
+          font-size: 15px;
+          background: #dcd0d0;
+          color: white;
+          border: white 3px solid;
+          border-radius: 5px;
+          padding: 12px 20px;
+          margin-top: 10px;
+      }
+      div a {
+          text-decoration: none;
+      }
+      </style> -->
+
+    
   </head>
+
   <body class="background">
-    <h1 style="font-family: verdana; text-align: center; color: #C0B283;">|Data Pengunjung|</h1>
+    <div>
+      <ul class="topnav" >
+        <li><a class="active" href="index.html">Biodata</a></li>
+        <li class="right"><a href="#kontak">Kontak</a></li>
+        <li class="right"><a href="#skill">Skill</a></li>
+        <li class="right"><a href="#pengalaman">Pengalaman</a></li>
+        <li class="right"><a href="#profil">Tentang Saya</a></li>
+        <li class="right"><a href="#pengunjung">Data Pengunjung</a></li>
+      </ul>
+    </div>
+    <!-- <div> <a href="biodata.html">Kembali ke Biodata</a> </div> -->
+    <section id="pengunjung"></section>
+    <h1 class ="data" style="font-family: verdana; text-align: center; color: #C0B283;">|Data Pengunjung|</h1>
             <h3 class ="form1">Isikan data diri anda</h3>
             <form class ="form">
               <p class="font-form">Nama :</p>
@@ -24,9 +56,8 @@
               </div>
             </form>
       <hr />
-   
+    <section id="profil"></section>
     <h1 class ="sub-judul">|Tentang Saya|</h1>
-    
       <img class="foto-p" src="logo.png" alt="ayuuuuu"  />
 
     <p class ="isi" >
@@ -36,6 +67,7 @@
     </p>
     <hr />
     
+    <section id="pengalaman"></section>
       <h1 class ="sub-judul">|Pengalaman|</h1>
       <table class="pengalaman" border="1">
         <tr style="background-color: #6D7993 ;">
@@ -71,8 +103,8 @@
       </table>
       <hr />
 
+    <section id="skill"></section>
     <h1 class ="sub-judul">|Skill|</h1>
-
       <table class="skill" border="1">
         <tr>
           <th class ="tabel-1">Bidang TI</th>
@@ -96,7 +128,7 @@
         </tr>
       </table>
     <hr />
-
+    <section id="kontak"></section>
     <h1 class ="sub-judul">|Kontak|</h1>
    <center>
     <a href="https://www.instagram.com/aistkmh/">Instagram || <a href="https://github.com/ayuisti29">Github</a> || <a href="https://codepen.io/AyuIstikomah">Codepen</a>

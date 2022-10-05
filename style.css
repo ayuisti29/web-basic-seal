@@ -1,13 +1,20 @@
 /* CSS BIODATA */
+
 .bbackground {
   background-color: hsl(180, 59%, 70%);
-  margin-top: 100px;
+  /* margin-top: 100px; */
   margin-bottom: 100px;
   margin-right: 100px;
   margin-left: 100px;
+  margin: 0;
 }
+
+.profil {
+  padding-top: 50px;
+}
+
 .foto {
-  margin-left: 600px;
+  margin-left: 700px;
   padding-bottom: 20px;
 }
 .isi {
@@ -25,21 +32,65 @@
 }
 .list {
   list-style-type: square;
-  margin-left: 600px;
+  margin-left: 700px;
   padding-bottom: 20px;
 }
 .list-angka {
-  margin-left: 600px;
+  margin-left: 700px;
   padding-bottom: 20px;
 }
 .link {
-  margin-left: 650px;
+  margin-left: 750px;
 }
 
 /* CSS PORTOFOLIO */
 
+ul.topnav {
+  list-style-type: none;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(131, 122, 122);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #e7dfdd;
+}
+
+ul.topnav li a.active {
+  background-color: #dcd0d0;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+
 .background {
   background-color: #f4f4f4;
+  margin: 0;
 }
 .sub-judul {
   font-family: verdana;
@@ -48,6 +99,9 @@
 }
 
 /*FORM*/
+.data {
+  padding-top: 50px;
+}
 .form {
   padding-left: 700px;
   padding-bottom: 20px;
