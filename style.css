@@ -14,7 +14,7 @@
 }
 
 .foto {
-  margin-left: 700px;
+  margin-left: 600px;
   padding-bottom: 20px;
 }
 .isi {
@@ -32,15 +32,15 @@
 }
 .list {
   list-style-type: square;
-  margin-left: 700px;
+  margin-left: 600px;
   padding-bottom: 20px;
 }
 .list-angka {
-  margin-left: 700px;
+  margin-left: 600px;
   padding-bottom: 20px;
 }
 .link {
-  margin-left: 750px;
+  margin-left: 650px;
 }
 
 /* CSS PORTOFOLIO */
@@ -103,7 +103,7 @@ ul.topnav li.right {
   padding-top: 50px;
 }
 .form {
-  padding-left: 700px;
+  padding-left: 600px;
   padding-bottom: 20px;
 }
 .form1 {
@@ -126,10 +126,10 @@ ul.topnav li.right {
 
 /*TABEL*/
 .pengalaman {
-  margin-left: 580px;
+  margin-left: 480px;
 }
 .skill {
-  margin-left: 680px;
+  margin-left: 580px;
 }
 .tabel-1 {
   background-color: #dcd0d0;
