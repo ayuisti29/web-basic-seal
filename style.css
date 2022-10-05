@@ -32,61 +32,18 @@
 }
 .list {
   list-style-type: square;
-  margin-left: 600px;
+  margin-left: 500px;
   padding-bottom: 20px;
 }
 .list-angka {
-  margin-left: 600px;
+  margin-left: 500px;
   padding-bottom: 20px;
 }
 .link {
-  margin-left: 650px;
+  margin-left: 550px;
 }
 
 /* CSS PORTOFOLIO */
-
-ul.topnav {
-  list-style-type: none;
-  top: 0;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(131, 122, 122);
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-}
-
-ul.topnav li {
-  float: left;
-}
-
-ul.topnav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul.topnav li a:hover:not(.active) {
-  background-color: #e7dfdd;
-}
-
-ul.topnav li a.active {
-  background-color: #dcd0d0;
-}
-
-ul.topnav li.right {
-  float: right;
-}
-
-@media screen and (max-width: 600px) {
-  ul.topnav li.right,
-  ul.topnav li {
-    float: none;
-  }
-}
 
 .background {
   background-color: #f4f4f4;
@@ -103,7 +60,7 @@ ul.topnav li.right {
   padding-top: 50px;
 }
 .form {
-  padding-left: 600px;
+  padding-left: 500px;
   padding-bottom: 20px;
 }
 .form1 {
@@ -117,7 +74,7 @@ ul.topnav li.right {
 /*TENTANG SAYA*/
 .foto-p {
   height: 250px;
-  margin-left: 650px;
+  margin-left: 550px;
 }
 .isi {
   text-align: center;
@@ -126,10 +83,10 @@ ul.topnav li.right {
 
 /*TABEL*/
 .pengalaman {
-  margin-left: 480px;
+  margin-left: 380px;
 }
 .skill {
-  margin-left: 580px;
+  margin-left: 480px;
 }
 .tabel-1 {
   background-color: #dcd0d0;
