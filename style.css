@@ -43,6 +43,22 @@
   margin: 0 auto;
 }
 
+.foto {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .foto {
+    width: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  .foto {
+    width: 15%;
+  }
+}
+
 /* CSS PORTOFOLIO */
 .background {
   background-color: #f4f4f4;
@@ -92,4 +108,20 @@
 }
 .tabel-2 {
   background-color: #e7dfdd;
+}
+
+.foto-p {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .foto-p {
+    width: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  .foto-p {
+    width: 20%;
+  }
 }
